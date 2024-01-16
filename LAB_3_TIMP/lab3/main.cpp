@@ -54,7 +54,7 @@ SUITE(EncryptTest)
                     p->encrypt("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG!!!"));
     }
     TEST_FIXTURE(KeyB_fixture, StringWithNumbers) {
-        CHECK_EQUAL("IBQQZOFXZFBS", p->encrypt("Happy New 2019 Year"));
+        CHECK_EQUAL("IBQQZOFXZFBS", p->encrypt("Happy New 2024 Year"));
     }
     TEST_FIXTURE(KeyB_fixture, EmptyString) {
         CHECK_THROW(p->encrypt(""),cipher_error);
